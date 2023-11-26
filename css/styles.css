@@ -163,4 +163,85 @@ input, textarea {
     margin-top: 20px;
     margin-bottom: 20px;
  }
+
+ #why-stay-with-us {
+    padding: 30px 0 10px 0;
+    margin: 0;
+ }
  
+ #why-stay-with-us ul {
+    list-style: none;
+ }
+
+ #why-stay-with-us ul li {
+    margin-bottom: 15px;
+ }
+ 
+ #why-stay-with-us ul li a {
+   color: inherit;
+   padding: 5px;
+   font-size: 14px;
+ }
+ 
+ #why-stay-with-us ul li a.selected {
+    border-left: #9a2018 solid 8px;
+  }
+
+#room-container {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#room-heading-box {
+    align-self: end;
+}
+
+.room-text p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.room-text a {
+    color: #626262;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#chateau-container {
+    background: url(../images/reg-mobile-06.jpg) no-repeat;
+    height: 200px;
+}
+
+#villa-container {
+    background: url(../images/reg-mobile-03.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#master-container {
+    background: url(../images/reg-mobile-05.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#chalet-container {
+    background: url(../images/reg-mobile-02.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#junior-container {
+    background: url(../images/reg-mobile-01.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#exotic-container {
+    background: url(../images/reg-mobile-04.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+
