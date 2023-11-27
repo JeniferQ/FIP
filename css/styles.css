@@ -203,7 +203,7 @@ input, textarea {
     padding-top: 0;
 }
 
-#room-heading-box {
+.room-heading-box {
     align-self: end;
 }
 
