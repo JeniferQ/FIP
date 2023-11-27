@@ -14,7 +14,11 @@ input, textarea {
     padding: 0;
  }
 
-/* Menu */
+.red-line {
+    margin-top: 20px;
+    border-top: solid 3px #C54242;
+    padding-top: 20px;
+}
 
 #main-nav label img {
     width: 20px;
@@ -95,22 +99,17 @@ input, textarea {
     align-self: end;
 }
  
-.hero-img-h2, .hero-img-h3 {
+.heading-h2 {
     background: rgb(255, 255, 255);
-    padding: 10px 15px;
+    padding: 15px 0 0 15px;
     font-size: 16px;
+    font-weight: 200;
 }
  
-.hero-img-h2 span,  .hero-img-h3 span {
+.heading-h2 span {
     color: #C54242;
     font-size: 12px;
 }
- 
-.red-line {
-    margin-top: 20px;
-    border-top: solid 3px #C54242;
-    padding-top: 20px;
- }
  
 #hero-summary p {
     font-size: 13px;
@@ -121,71 +120,83 @@ input, textarea {
 #room-services-container {
     background-color: #f4f4f4;
     padding: 30px 0 40px 15px;
- }
+}
  
 #room-services-container h2 {
     font-size: 18px;
-    margin-bottom: 20px;
- }
+    margin-bottom: 0;
+    font-weight: 200;
+}
  
- #room-services-container h2 span {
+#room-services-container h2 span {
     color: #C54242;
     font-size: 12px;
- }
+}
  
- .room-services-items {
+.room-services-items {
     margin-bottom: 12px;
- }
+}
  
- .room-services-items h3 {
+.room-services-items h3 {
     background: #e8e7e7;
     padding: 12px;
+    padding-left: 30px;
     font-size: 14px;
     font-weight: 100;
- }
+}
  
- .room-services-items ul {
+.room-services-items ul {
     list-style-type: none;
     margin: 10px 0 0 0;
- }
+}
 
- .room-services-items li {
+.room-services-items li {
     padding: 8px 0;
     border-bottom: 1px solid #9a2018;
- }   
- 
- .room-services-items a {
-    color: inherit;
-    font-size: 12px;
- }
- 
- .room-services-items {
+}   
+
+.fa-solid {
+    float: left;
+}
+
+.fa-play {
+    color: #b8b8b8;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.room-services-items {
     margin-top: 20px;
     margin-bottom: 20px;
- }
+}
 
- #why-stay-with-us {
+.room-services-items a {
+    color: inherit;
+    font-size: 12px;
+}
+
+#why-stay-with-us {
     padding: 30px 0 10px 0;
     margin: 0;
- }
+}
  
- #why-stay-with-us ul {
+#why-stay-with-us ul {
     list-style: none;
- }
+}
 
- #why-stay-with-us ul li {
+#why-stay-with-us ul li {
     margin-bottom: 15px;
- }
+}
  
- #why-stay-with-us ul li a {
+#why-stay-with-us ul li a {
    color: inherit;
    padding: 5px;
    font-size: 14px;
- }
+}
  
- #why-stay-with-us ul li a.selected {
+#why-stay-with-us ul li a.selected {
     border-left: #9a2018 solid 8px;
-  }
+}
 
 #room-container {
     margin-top: 0;
@@ -243,5 +254,110 @@ input, textarea {
     margin-top: 50px;
 }
 
+#contact-container {
+    background: url(../images/reg-mobile-07.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
 
+#contact-heading-box {
+    align-self: end;
+}
 
+#contact-text {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#contact-address p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+ 
+#contact-address {
+    margin-bottom: 30px;
+}
+ 
+#contact-address h3 {
+    margin-bottom: 20px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+#contact-form input, textarea {
+    padding: 15px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: auto;
+    font-size: 16px;
+}
+
+#contact-form input:focus, textarea:focus {
+    background: #d6d6d6;
+    outline: none;
+}
+ 
+#contact-form textarea {
+    height: 220px;
+    resize: none;
+}
+ 
+#contact-form input[type="submit"] {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all 200ms ease-in;
+    width: 175px;
+    align-self: flex-end;
+}
+ 
+#contact-form input[type="submit"]:hover {
+    background-color: #626262;
+    border-radius: 0;
+}
+
+#footer {
+    background-image: url(../images/footer-mobile-01.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+ 
+#footer h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+ 
+#footer-privacy .red-line {
+    margin-top: 0px;
+}
+ 
+#footer-info h3 {
+    font-size: 23px;
+}
+ 
+#footer-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+#footer-privacy p {
+    font-size: 10px;
+}
+
+ 
+ 
